@@ -1,0 +1,129 @@
+.register-boxtitle {
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 60px;
+}
+.register-banner{
+    margin-top: 30px;
+    width: 100%;
+    height: 470px;
+    background: #fd7a72;
+}
+.register-main{
+    max-width: 1000px;
+    height: 470px;
+    margin: 0px auto;
+    position: relative;
+}
+.login-box, .login-box2 {
+    width: 100%;
+    max-width: 320px;
+    height: 430px;
+    position: absolute;
+    margin-top: 18px;
+    margin-left: 0px;
+    background: #f8f8f8;
+    right: 2%;
+    padding: 10px 20px;
+}
+.login-box>.big-tabs{
+    /*border:1px solid red;*/
+    box-sizing:border-box;
+    margin-top:50px;
+}
+.login-box>.big-tabs>.tabs{
+    /*border:1px solid blue;*/
+    display:flex;
+    justify-content:space-around;
+    margin-top:10px;
+    box-sizing:border-box;
+}
+
+.login-box>.big-tabs>.tabs>li{
+    display:inline-block;
+    height:30px;
+    width:100px;
+    border-bottom:1px solid black;
+    /*padding-left:50px;*/
+    font-size:16px;
+    font-weight:bold;
+    text-align:center;
+
+}
+.big-tabs .am-tabs-bd{
+    height:280px;
+    width:316px;
+    /*border:1px solid green;*/
+}
+.am-tabs-bd .am-tab-panel.am-active {
+    position: relative;
+    z-index: 100;
+    visibility: visible;
+    transform: translateX(0);
+}
+.am-tabs-bd .am-tab-panel{
+  padding:0
+}
+.am-tab-panel form{
+    width:300px;
+    height:136px;
+    margin: 20px auto;
+}
+.user-name, .user-pass, .user-email, .user-phone{
+    position: relative;
+    height: 42px;
+    margin-bottom: 5px;
+}
+
+#register>div{
+  width:300px;
+}
+#register input:not("#reader-me") {
+    outline: none;
+    font-size: 14px;
+    line-height: 18px;
+    height: 30px;
+    /*padding-left: 57px;*/
+    padding-right:50px;
+    /*padding-top:8px;*/
+    width: 100%;
+    border: 1px solid #fff;
+}
+/*.links{
+    position:relative;
+    padding-left:37px;
+}*/
+
+#reader-me{
+    display:inline-block; 
+    width:15px;
+    height:15px;
+   
+}
+#submit{
+  margin-top: 10px;
+  text-align:center;
+}
+.am-tab-panel .am-cf{
+    max-width: 640px;
+    margin: 20px auto;
+}
+.am-tab-panel .am-cf input {
+    display: inline-block;
+    width: 295px;
+    height:37px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #0e90d2;
+    border: 1px solid transparent;
+    line-height: 1.2;
+    text-align: center;
+
+}
+
+
+
+.footer>.footer-bd{
+    margin:0 auto;
+    text-align:center
+}

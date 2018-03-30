@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="stylesheet" href="css/amazeui.min.css" />
+		<link href="css/dlstyle.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/register.css">
+		<style >
+		label.error{
+		   width:100%;
+		   height:1em;
+           margin-left:4em;
+           color:red;
+          font-style: italic;
+		  font-size:10px;
+        }
+		.login-links>input{
+			border:1px solid red;
+		}
+		</style>
+	</head>
+	<body>
+
+		<div class="login-boxtitle">
+			<a href="index.html"><img alt="" src="images/logobig.png" /></a>
+		</div>
+		<div class="res-banner">
+			<div class="res-main">
+				<div class="login-banner-bg"><span></span><img src="images/big.jpg" /></div>
+				<div class="login-box">
+						<div class="am-tabs" id="doc-my-tabs">
+							<ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+								<li class="am-active"><a href="">注册</a></li>
+							</ul>
+							<div class="am-tabs-bd">
+								<div class="am-tab-panel am-active">
+									<form id="register">
+							            <div class="user-email "> 
+										 
+       											 <input id="uname" name="uname" placeholder="请输入用户名">
+       										
+                                        </div>
+                                        <div class="user-pass ">
+								           
+								            <input type="password" name="upwd1" id="upwd1" placeholder="设置密码">
+                                         </div>
+                                       <div class="user-pass ">
+											
+											<input type="password" name="upwd2"  placeholder="确认密码">
+									   </div>
+
+	                                  <div class="links">									
+											<input id="reader-me" name="agree"type="checkbox" checked > 点击表示您同意商城《服务协议》 			
+							  	     </div>
+									
+
+									   <div >
+											<input type="submit" name="submit" value="注册" id="submit" class="am-btn am-btn-primary am-btn-sm am-fl">
+									</div>
+							        </form>
+								
+								</div>
+								
+							</div>
+						</div>
+				</div>
+			</div>
+
+		<script src='js/jquery.js'></script>
+		<script src="js/jquery.validate.js"></script>
+		<script src="js/messages_zh.js"></script>
+		<script src="js/register.js" ></script>
+	</body>
+</html>

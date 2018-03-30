@@ -1,0 +1,94 @@
+#header>.hmtop{
+    font-size: 14px;
+}
+.hmtop .am-container.header .message-l .topMessage>.list{
+    float:left;
+}
+.am-container .topMessage{
+    float:left;
+    padding: 0px 6px;
+    height: 35px;
+    line-height: 35px;
+}
+.am-container>.message-l{
+    float:left;
+}
+.am-container>.message-r{
+    float:right;
+}
+.nav{
+/*    border:1px solid greenyellow;*/
+    height:90px;
+    width:960px;
+    margin:0 auto;
+}
+.nav>.logoBig{
+    display: block;
+    float: left;
+    height: 90px;
+    width: 200px;
+    /*border:1px solid blue;*/
+}
+.nav>.search-bar{
+    border:2px solid #F03726;
+    /*height:60px;*/
+    /*width:470px;*/
+    margin: 21px 100px;
+    float:left;
+    box-sizing: border-box;
+}
+.nav .search-bar input{
+    width:400px;
+    height:40px;
+    border:none;
+    outline:none;
+    box-sizing:border-box;
+}
+.nav>.search-bar>p{
+    float:right;
+    height:42px;
+    width:60px;
+	line-height:42px;
+	font-size:16px;
+    font-weight:bold;
+    /*border:1px solid blue;*/
+    text-align:center;
+/*    vertical-align:middle;*/
+    background:#F03726
+}
+
+.hmtop>.nav-cont{
+    height:45px;
+    border-bottom:2px solid #d2364c;
+    box-sizing: border-box;
+}
+.hmtop>.nav-cont li{
+    float:left;
+    /*border:1px solid red;*/
+    width:50px;
+    text-align:center;
+    font-size: 16px;
+    line-height: 35px;
+    height:35px;
+
+}
+.hmtop>.nav-cont .allp{
+    width:150px;
+    height:45px;
+    /*border:1px solid blue;*/
+    background: #d2364c;
+    color: #fff;
+    line-height: 45px;
+    margin-right:30px;
+}
+
+
+
+
+
+
+
+
+/*顶部导航条*/
+
+

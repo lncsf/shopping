@@ -1,0 +1,32 @@
+.take-delivery {
+    background: url(../images/T13iv.XiFdXXa94Hfd-32-32.png) no-repeat scroll 30px 30px transparent;
+    padding: 27px 0 27px 76px;
+    border: 1px solid #e5e5e5;
+    margin-top: 10px;
+    border: none;
+    color: #333;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.take-delivery  h2{
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 0px;
+}
+.status .option {
+    margin: 13px 0 25px 0px;
+}
+.status .option .info {
+    margin-right: 10px;
+}
+.successInfo a span {
+    font-size: 13px;
+    margin: 0 10px 0 10px;
+    color: #f00;
+}
+
+
+
+
